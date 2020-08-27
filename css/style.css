@@ -168,7 +168,12 @@ section.success {
   #mainNav.navbar-shrink {
     padding: 10px 0; }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 1.5em; } 
+    .modal .container {
+       width: 1400px;
+    }
+
+}
 
 header.masthead {
   text-align: center;
@@ -283,12 +288,15 @@ header.masthead {
     border: 0;
     border-radius: 0; }
     .portfolio-modal .modal-dialog .modal-content h2 {
-      font-size: 3em;
       margin: 0; }
     .portfolio-modal .modal-dialog .modal-content img {
       margin-bottom: 30px; }
     .portfolio-modal .modal-dialog .modal-content .item-details {
       margin: 30px 0; }
+
+.item-details-span {
+color: #18BC9C
+}
 
 .portfolio-modal .close-modal {
   position: absolute;
