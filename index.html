@@ -50,11 +50,11 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li> 
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
@@ -93,23 +93,33 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+   
+    <!-- About Section -->
+    <section  id="about">
         <div class="container">
-            <h2 class="text-center">Portfolio</h2>
+            <h2 class="text-center">About Me</h2>
             <hr class="star-primary">
             <div class="row">
-                <div class="col-lg-6 col-sm-4 portfolio-item">
-                    <div class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/valorantinfo-thumbnail.png" alt="">
-                    </div>
+                <div class="col-lg-6 about-text">
+                    <p>I am a newly graduated Software Engineer from the University of Gothenburg, seeking for new challenging opportunities where I can grow professionally and personally. I thrive on solving problems, constantly gaining new knowledge and learning new skills. </p>
                 </div>
-                <div class="col-lg-6 col-sm-4  portfolio-item">
+                <div class="col-lg-6 about-text">
+                    <p>Besides having a huge passion for technology since a young age, I have always been very interested in the business world. My interest in both technology and business has lead me to attempt many online business endeavours in the past years. </p>
+                </div>
+                <div class="col-lg-8 offset-lg-2 about-text">
+                    <p>I believe that due to my past experiences trying to start and run multiple businesses, I have a better understanding of the importance for both the software development and business aspect in companies. When developing I put high focus on customer value and simplicity of the software. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <hr class="star-light">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
                     <div class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -119,7 +129,17 @@
                         <img class="img-fluid" src="img/portfolio/fallguysinfo-thumbnail.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-4  portfolio-item">
+                  <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
+                    <div class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/valorantinfo-thumbnail.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
                     <div class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -129,7 +149,7 @@
                         <img class="img-fluid" src="img/portfolio/store-thumbnail.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-4  portfolio-item">
+                <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
                     <div class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -139,7 +159,7 @@
                         <img class="img-fluid" src="img/portfolio/texteditor-thumbnail.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-4  portfolio-item">
+                <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
                     <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -149,7 +169,7 @@
                         <img class="img-fluid" src="img/portfolio/cyber-thumbnail.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-4  portfolio-item">
+                <div class="col-xl-6 col-lg-12 col-sm-4 portfolio-item">
                     <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -163,24 +183,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <h2 class="text-center">About Me</h2>
-            <hr class="star-light">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>I am a newly graduated Software Engineer from the University of Gothenburg, seeking for new challenging opportunities where I can grow professionally and personally. I thrive on solving problems, constantly gaining new knowledge and learning new skills. </p>
-                </div>
-                <div class="col-lg-6">
-                    <p>Besides having a huge passion for technology since a young age, I have always been very interested in the business world. My interest in both technology and business has lead me to attempt many online business endeavours in the past years. </p>
-                </div>
-                <div class="col-lg-8 offset-lg-2 col-10">
-                    <p>I believe that due to my past experiences trying to start and run multiple businesses, I have a better understanding of the importance for both the software development and business aspect in companies. When developing I put high focus on customer value and simplicity of the software. </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section id="skills">
         <div class="container">
@@ -188,7 +190,7 @@
             <hr class="star-primary">
             <div class="row">
 
-                <div class="col-lg-2 col-sm-2">
+                <div class="col-lg-2 col-sm-2 ">
                     <!-- JAVA ICON -->
                     <svg viewBox="0 0 128 128">
                         <path fill="#0074BD" d="M52.581 67.817s-3.284 1.911 2.341 2.557c6.814.778 10.297.666 17.805-.753 0 0 1.979 1.237 4.735 2.309-16.836 7.213-38.104-.418-24.881-4.113zM50.522 58.402s-3.684 2.729 1.945 3.311c7.28.751 13.027.813 22.979-1.103 0 0 1.373 1.396 3.536 2.157-20.352 5.954-43.021.469-28.46-4.365z"></path>
